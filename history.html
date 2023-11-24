@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History of Swimming</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+</head>
+
+<body>
+
+    <header class="text-center p-5">
+        <h1>The Rich History of Swimming</h1>
+        <h4 class="header-h4">Explore the Evolution of this Timeless Activity</h4>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-light p-1">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/swimming.png" alt="Logo" width="50" height="50" class="d-inline-block align-top">
+                SwimMe
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Interesting
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="history.html"><i class="fas fa-history"></i> History of Swimming</a>
+                            <a class="dropdown-item" href="safety.html"><i class="fas fa-life-ring"></i> Swimming Safety</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html"><i class="fas fa-address-book"></i> Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quiz.html"><i class="fas fa-question"></i> Take the Quiz</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <main class="container">
+        <div class="container mt-5">
+            <div class="text-center wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                <h5 class="section-title ff-secondary text-center fw-normal">Let's have some overview</h5>
+                <h1 class="mb-4 text-center ff-primary">The most crusial moments in history for swimming industry</h1>
+            </div>
+            <div id="history-carousel" class="carousel slide wow animate__animated animate__fadeInUp" data-wow-delay="0.4s"" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/image1.jpg" class="d-block w-100" alt="Image 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Ancient Beginnings</h5>
+                            <p>Swimming dates back to ancient civilizations, with depictions found in Egyptian cave paintings from around 2500.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/image2.jpg" class="d-block w-100" alt="Image 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Olympic Roots</h5>
+                            <p>Swimming has been part of the Olympic Games since the modern revival in 1896, showcasing the sport's global appeal.</p>
+                      
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/image3.jpg" class="d-block w-100" alt="Image 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Competitive Evolution</h5>
+                            <p>Competitive swimming gained popularity in the 19th century, leading to the establishment of swimming clubs and competitions.</p>
+                              
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/image4.jpg" class="d-block w-100" alt="Image 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Modern Milestones</h5>
+                            <p>Swimming continues to evolve, with record-breaking feats, innovative techniques, and a global community of enthusiasts.</p>
+                  
+                        </div>
+                    </div>
+                          
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#history-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#history-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    
+    </main>
+
+    <button id="back-to-top-btn" class="btn btn-primary back-to-top rounded-circle" title="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <footer class="text-center container-fluid footer wow fadeIn " data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="section-title text-center fw-normal mb-4">Contact Us</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Pool Lane, SwimCity</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+7 707 707 77 77</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>Insaniyat@swimme.com</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex pt-2 justify-content-center">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </br>
+                    <p>Embark on a journey to better health and well-being through the wonders of swimming. Dive in, stay active, and enjoy the numerous benefits it brings to your body and mind.</p>
+                </div>
+            </div>
+        </div>
+    </footer>    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css">
+    
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    </head>
+<body>
+
+    <header class= "text-center p-5">
+        <h1>Contact Us</h1>
+        <h4 class="header-h4">Feel free to get in touch with us!</h4>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-light p-1">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/swimming.png" alt="Logo" width="50" height="50" class="d-inline-block align-top">
+                SwimMe
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Interesting
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="history.html"><i class="fas fa-history"></i> History of Swimming</a>
+                            <a class="dropdown-item" href="safety.html"><i class="fas fa-life-ring"></i> Swimming Safety</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html"><i class="fas fa-address-book"></i> Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quiz.html"><i class="fas fa-question"></i> Take the Quiz</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div id="contacts" class="container-xxl py-5">
+            <div class="text-center wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                <h5 class="section-title ff-secondary text-center fw-normal">Contact Us</h5>
+                <h1 class="mb-4 text-center">Do you want to take cources in wimming? Leave us an info!</h1>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="John Doe">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="john.doe@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Type your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btnQ">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s">
+                    <br>
+                    <iframe class="position-relative rounded w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990671.1821948036!2d71.36403604013728!3d51.17954660429776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4dab515beef6bffb%3A0x477030683429edf7!2sOrynbor%20Street%2010%2C%20Astana%2C%20Kazakhstan!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                        frameborder="0" style="min-height: 350px; border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <button id="back-to-top-btn" class="btn btn-primary back-to-top rounded-circle" title="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <button id="back-to-top-btn" class="btn btn-primary back-to-top rounded-circle" title="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <footer class="text-center container-fluid footer wow fadeIn " data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="section-title text-center fw-normal mb-4">Contact Us</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Pool Lane, SwimCity</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+7 707 707 77 77</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>Insaniyat@swimme.com</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex pt-2 justify-content-center">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </br>
+                    <p>Embark on a journey to better health and well-being through the wonders of swimming. Dive in, stay active, and enjoy the numerous benefits it brings to your body and mind.</p>
+                </div>
+            </div>
+        </div>
+    </footer>    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
